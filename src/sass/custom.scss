@@ -1,0 +1,273 @@
+/* stylelint-disable color-no-hex */
+.topbar {
+    position: absolute;
+    padding: 15px 0;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background: transparent;
+}
+
+.header {
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 160px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(42, 48, 82, 1), rgba(42, 48, 82, 0.7)), url('/assets/images/forex-cfd trading.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.language {
+    text-align: right;
+    margin-top: 0px;
+
+    a {
+        margin-left: 5px;
+
+        &:hover {
+            text-decoration: none;
+            color: #cccccc;
+        }
+    }
+}
+
+.nav {
+    margin-top: 10px;
+    text-align: right;
+    margin-right: -10px;
+
+    a {
+        color: #ffffff;
+        font-weight: 400;
+        padding: 5px 10px;
+        line-height: 36px;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+            color: #cccccc;
+        }
+    }
+}
+
+.ft-icon {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #e98024;
+    margin: 0;
+    margin-top: 40px;
+    letter-spacing: -1px;
+}
+
+.button-xl {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 40px;
+}
+
+.cta {
+    margin-top: 60px;
+}
+
+.section-title {
+    margin-bottom: 45px;
+    font-size: 42px;
+}
+
+.section-subtitle {
+    margin-top: -30px;
+    margin-bottom: 90px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.video {
+    width: 800px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step {
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-2xl {
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 64px;
+    margin: 0;
+}
+
+.title-xl {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 54px;
+    margin: 0;
+}
+
+.title-md {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 0;
+}
+
+.title-sm {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.h2-xl {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.col-title {
+    font-weight: bold;
+}
+
+.default-title {
+    background-color: #ffffff;
+    color: #2a3052;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bottom-md {
+    margin-bottom: 30px;
+}
+
+.bottom-xl {
+    margin-bottom: 60px;
+}
+
+.divider-md {
+    height: 30px;
+}
+
+.top-border {
+    border-top: 1px solid #f2f2f2;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.ft-bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.spacing-1 {
+    letter-spacing: 1px;
+}
+
+.img-col {
+    max-width: 200px;
+}
+
+.col-ico {
+    margin: 20px 0;
+}
+
+.col-label {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.dark-grey-bg {
+    background: #eaeaea;
+}
+
+.right-white-border {
+    border-right: 1px solid #ffffff;
+}
+
+/* stylelint-enable color-no-hex */
+
+@media screen and (max-width: 1024px) {
+    .lg-center {
+        text-align: center;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .language {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .nav {
+        text-align: center;
+    }
+    .header-content {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .md-center {
+        text-align: center;
+    }
+    .md-v-pading-sm {
+        padding: 20px;
+    }
+    .col-step {
+        margin: 20px 0;
+    }
+    .top-border {
+        border: none;
+    }
+    .md-hide {
+        display: none;
+    }
+}
+@media screen and (max-width: 520px) {
+    .button, .button-secondary {
+        display: block;
+        margin: 5px;
+    }
+    .title-xl, .title-2xl {
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 30px;
+    }
+    .img-col {
+        max-width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
