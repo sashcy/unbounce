@@ -1,83 +1,140 @@
 /* stylelint-disable color-no-hex */
-.topbar {
-  position: absolute;
-  padding: 15px 0;
-  top: 10px;
-  left: 0;
-  width: 100%;
-  z-index: 9;
-  background: transparent; }
-
-.header {
+.header-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
-  padding: 20px;
-  padding-top: 160px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#2a3052), to(rgba(42, 48, 82, 0.7))), url("/assets/images/forex-cfd trading.jpeg") no-repeat;
-  background: linear-gradient(#2a3052, rgba(42, 48, 82, 0.7)), url("/assets/images/forex-cfd trading.jpeg") no-repeat;
+  min-height: 80vh;
+  width: 100%;
+  /* for IE 6 */
+  padding: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.7)), to(#2a3052)), url("/assets/images/header-img-min.jpg") no-repeat;
+  background: linear-gradient(rgba(42, 48, 82, 0.7), #2a3052), url("/assets/images/header-img-min.jpg") no-repeat;
   background-size: cover;
   background-position: center; }
 
+.TopBar {
+  display: block;
+  position: absolute;
+  padding: 15px 0;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  background: none; }
+
 .logo {
-  margin-top: 15px; }
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 200px; }
 
-.language {
-  text-align: right;
-  margin-top: 0px; }
-  .language a {
-    margin-left: 5px; }
-    .language a:hover {
-      text-decoration: none;
-      color: #cccccc; }
+.header-content {
+  margin-top: 50px; }
 
-.nav {
-  margin-top: 10px;
-  text-align: right;
-  margin-right: -10px; }
-  .nav a {
-    color: #ffffff;
-    font-weight: 400;
-    padding: 5px 10px;
-    line-height: 36px;
-    cursor: pointer; }
-    .nav a:hover {
-      text-decoration: none;
-      color: #cccccc; }
+.header-title {
+  padding-bottom: 50px; }
 
-.ft-icon {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  color: #e98024;
-  margin: 0;
-  margin-top: 40px;
-  letter-spacing: -1px; }
+.cta-form-container {
+  width: 280px;
+  padding: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px; }
 
-.button-xl {
-  font-size: 22px;
-  font-weight: 400;
-  padding: 15px 40px; }
+.cta-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px; }
 
-.cta {
-  margin-top: 60px; }
+.input-lg {
+  width: 250px;
+  max-width: 100%;
+  padding: 7px;
+  margin: 10px 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.cta-form-button span {
+  margin: 10px 0; }
+
+.cta-title {
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.section {
+  padding: 30px 0; }
+
+.section-lg {
+  padding: 50px 0; }
 
 .section-title {
-  margin-bottom: 45px;
+  margin-bottom: 20px;
   font-size: 42px; }
 
 .section-subtitle {
-  margin-top: -30px;
-  margin-bottom: 90px;
-  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 22px;
   font-weight: 400; }
+
+.icon-report {
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  background: url("/assets/svg/experience-trading.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin: auto;
+  margin-top: 15px; }
+
+.icon-events {
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  background: url("/assets/svg/event.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 0px; }
+
+.icon-trade-ideas {
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  background: url("/assets/svg/stock-data-analysis.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin: auto;
+  margin-top: 15px; }
+
+.icon {
+  margin-top: 50px;
+  margin-bottom: 0; }
+
+.author-image {
+  margin-top: 20px;
+  text-align: center; }
+
+.rounded {
+  border-radius: 100%;
+  border: 1px solid #dedede;
+  padding: 3px;
+  width: 125px;
+  height: auto;
+  max-width: 100%; }
 
 .video {
   width: 800px;
@@ -105,27 +162,14 @@
 
 .title-md {
   font-weight: 300;
-  font-size: 36px;
+  font-size: 28px;
   margin: 0; }
 
 .title-sm {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   margin: 0; }
-
-.h2-xl {
-  font-weight: 300;
-  font-size: 36px; }
-
-.col-title {
-  font-weight: bold; }
-
-.default-title {
-  background-color: #ffffff;
-  color: #2a3052;
-  padding: 20px;
-  font-weight: bold; }
 
 .center-text {
   text-align: center; }
@@ -154,6 +198,9 @@
 .ft-bold {
   font-weight: bold; }
 
+.ft-400 {
+  font-weight: 400; }
+
 .uppercase {
   text-transform: uppercase; }
 
@@ -180,16 +227,6 @@
 @media screen and (max-width: 1024px) {
   .lg-center {
     text-align: center; }
-  .logo {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    text-align: center; }
-  .language {
-    text-align: center;
-    margin-top: 25px; }
-  .nav {
-    text-align: center; }
   .header-content {
     margin-top: 100px; } }
 
@@ -203,22 +240,32 @@
   .top-border {
     border: none; }
   .md-hide {
-    display: none; } }
+    display: none; }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center; }
+  .header-title, .header-subtitle {
+    text-align: center; }
+  .header-subtitle {
+    font-size: 24px; }
+  .cta-form-container {
+    margin-top: 50px;
+    margin-bottom: 50px; } }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 766px) {
   .button, .button-secondary {
     display: block;
     margin: 5px; }
   .title-xl, .title-2xl {
     font-size: 36px;
     line-height: 36px;
-    margin-top: 30px; }
-  .img-col {
-    max-width: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto; } }
+    margin-top: 30px; } }
+
+.test {
+  background-color: #eeeeee; }
 
 /*!
  * Bootstrap Grid v4.0.0-beta.2 (https://getbootstrap.com)
