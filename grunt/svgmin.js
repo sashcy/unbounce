@@ -12,9 +12,9 @@ module.exports = {
         files: [
             {
                 expand: true, 
-                cwd: 'src/assets/', 
-                src: ['svg/**/*.svg'],                           
-                dest: 'dist/assets/' 
+                cwd: 'src/', 
+                src: ['assets/svg/**/*.svg'],                           
+                dest: 'dist' 
             },
         ]
     }
