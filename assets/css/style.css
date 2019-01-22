@@ -13,8 +13,8 @@
   width: 100%;
   /* for IE 6 */
   padding: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.7)), to(#2a3052)), url("../../assets/images/header-img-min.jpg") no-repeat;
-  background: linear-gradient(rgba(42, 48, 82, 0.7), #2a3052), url("../../assets/images/header-img-min.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.7)), to(#2a3052)), url("https://sashcy.github.io/unbounce/assets/images/header-img-min.jpg") no-repeat;
+  background: linear-gradient(rgba(42, 48, 82, 0.7), #2a3052), url("https://sashcy.github.io/unbounce/assets/images/header-img-min.jpg") no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -90,7 +90,7 @@
   width: 50px;
   height: 50px;
   max-width: 100%;
-  background: url("assets/svg/experience-trading.svg");
+  background: url("https://sashcy.github.io/unbounce/assets/svg/experience-trading.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: block;
@@ -101,7 +101,7 @@
   width: 50px;
   height: 50px;
   max-width: 100%;
-  background: url("assets/svg/event.svg");
+  background: url("https://sashcy.github.io/unbounce/assets/svg/event.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: block;
@@ -113,7 +113,7 @@
   width: 50px;
   height: 50px;
   max-width: 100%;
-  background: url("assets/svg/stock-data-analysis.svg");
+  background: url("https://sashcy.github.io/unbounce/assets/svg/stock-data-analysis.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: block;
