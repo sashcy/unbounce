@@ -264,8 +264,8 @@
     line-height: 36px;
     margin-top: 30px; } }
 
-.test {
-  background-color: #eeeeee; }
+.button span, button span {
+  text-transform: none; }
 
 /*!
  * Bootstrap Grid v4.0.0-beta.2 (https://getbootstrap.com)
